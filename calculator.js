@@ -39,7 +39,7 @@ function calculateSquareRoot(value=null) {
         let display = document.getElementById('display');
         v = display.value;
     } else {
-        v = value;
+        v = 0;
     }
     return Math.sqrt(v);
 }

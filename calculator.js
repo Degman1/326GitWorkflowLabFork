@@ -44,9 +44,10 @@ function calculateSquareRoot(value=null) {
     return Math.sqrt(v);
 }
 
-// TODO: Implement square function
+// Calculate the square of the value
 function calculateSquare() {
-    // Hint: Use exponentiation
+    let display = document.getElementById('display');
+    display.value = Math.pow(display.value,2);
 }
 
 // BUG: FIX reciprocal function
